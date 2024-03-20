@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-page</title>
+    <script src="https://kit.fontawesome.com/5379371d44.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-gradient-to-r from-[#F28383] from-10% via-[#9D6CD2] via-30% to-[#481EDC] to-90% flex items-center justify-center h-screen">
+
+    <div class="max-w-[800px] bg-black-dark grid md:grid-cols-2 grid-cols-1 gap-20 items-center p-5 rounded-2xl">
+      <div class="relative">
+        <img src="./images/signup-background.svg" alt="">
+        <img src="./images/teamwork.svg" alt="" class="absolute top-36">
+      </div>
+
+      <div class="max-w-80 grid gap-5">
+        <h1 class="text-5xl font-bold text-white">Login</h1>
+        <p class="text-dull-white">Access to 300+ hours of courses, tutorials and livestreams.</p>
+        <form action="#" class="space-y-6 text-white">
+          <div class="relative">
+            <div class="absolute top-1 left-1 bg-white-medium rounded-full p-2 flex items-center justify-center text-blue-300">
+              <i class="fa-solid fa-envelope-open"></i>
+            </div>
+            <input type="email" placeholder="Email Address " class="w-72 bg-white-light py-2 px-12 rounded-full focus:bg-black-dark focus:outline-none focus:ring-1 focus:ring-neon-blue focus:drop-shadow-lg">
+          </div>
+          <div class="relative">
+            <div class="absolute top-1 left-1 bg-white-medium rounded-full p-2 flex items-center justify-center text-blue-300">
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <input type="password" placeholder="Password" class="w-72 bg-white-light py-2 px-12 rounded-full focus:bg-black-dark focus:outline-none focus:ring-1 focus:ring-neon-blue focus:drop-shadow-lg">
+          </div>
+          <button class="bg-gradient-to-r from-cyan-200 to-indigo-600 w-72 font-semibold rounded-full py-2">Sign In</button>
+        </form>
+        <div class="text-dull-white border-t border-white-light pt-4 space-y-4 text-sm">
+          <p>Don't have an Account? <a href="#" class="text-neon-blue font-bold text-base">Sign Up</a></p>
+          <p>Forget password? <a href="#" class="text-neon-blue font-bold text-base">Reset password</a></p>
+          <p>Don't have a password yet? <a href="#" class="text-neon-blue font-bold text-base">Set password</a></p>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
